@@ -2,7 +2,7 @@
 
 ## The problem this tool solves
 
-The Steam Deck's analog triggers have a very large deadzone in them. This deadzone is baked into the firmware upon calibrated. It can make games using the analog triggers not "feel" as nice or responsive. For example, in a racing games, if you want to slightly accelerate or press the brake, furing the first few millimeters of pressing, nothing happens, and then the trigger suddenly starts kicking in. This tool can completely solve that problem by overwriting the calibration values in the firmware. Now you can press that analog trigger just a millimeter and it will start registering!
+The Steam Deck's analog triggers have a very large deadzone in them. This deadzone is added by the firmware each they are calibrated. It can make games using the analog triggers not feel as nice or responsive. For example, in a racing games, if you want to slightly accelerate or press the brake, during the first few millimeters of pressing the trigger, nothing happens. Only after a considerable distance does, the trigger suddenly kick in. This tool can completely solve that problem by overwriting the calibration values in the firmware. Now you can press that analog trigger just a millimeter and it will start registering!
 
 ## Warning / Disclaimer
 
