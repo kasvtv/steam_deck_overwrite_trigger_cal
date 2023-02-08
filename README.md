@@ -19,7 +19,7 @@ Open a Konsole. To do so, open the Start menu, go to System, click Konsole:
 
 ![Screenshot 2](https://raw.githubusercontent.com/kasvtv/steam_deck_overwrite_trigger_cal/master/README_screenshots/2.png)
 
-In the Konsole. Enter `chmod +x ./overwrite_trigger_cal`. You can right click (left trigger) into the console to paste if you want. Then press the A button, or press the Enter key:
+In the Konsole, enter `chmod +x ./overwrite_trigger_cal`. You can right click (left trigger) into the console to paste if you want. Then press the A button, or press the Enter key:
 
 ![Screenshot 3](https://raw.githubusercontent.com/kasvtv/steam_deck_overwrite_trigger_cal/master/README_screenshots/3.png)
 
@@ -63,11 +63,11 @@ Enjoy more responsive triggers!
 
 ## FAQ
 
-### Can I also use something like this to reduce my deadzone of my thumbsticks?
-The deadzones on the thumbsticks are indeed pretty large, and not configurable. Fun fact, the thumbstick deadzone calibration options in Settings -> Controller -> Calibration & Advanced Settings do absolutely nothing! Unfortunately, they were hardcoded into Steam Input at some point (you can read more about it [here](https://www.reddit.com/r/SteamDeck/comments/t4o91g/valves_response_on_my_stick_driftdeadzone_ticket/)) and not set by the firmware. I fully agree with you that the dead zones on the thumbsticks should be modifyable by the user. They are set larger than necessary and that's really a detriment to how responsive they can feel. Please leave a comment on my [feature request]() on the Steam Forums to make this happen!
+### Can I also use something like this to reduce the deadzone of my thumbsticks?
+The deadzones on the thumbsticks are indeed larger than necessary, and Valve doesn't let the user edit them. Fun fact, the thumbstick deadzone calibration options in Settings -> Controller -> Calibration & Advanced Settings do absolutely nothing! They were hardcoded into Steam Input at some point (you can read more about that [here](https://www.reddit.com/r/SteamDeck/comments/t4o91g/valves_response_on_my_stick_driftdeadzone_ticket/)) and not set by the firmware. I fully agree with you that the dead zones on the thumbsticks should be modifiable by the user. Currently, it's a real detriment to how responsive the controls feel. Please leave a comment on my [feature request]() on the Steam Forums to make this happen! Unfortunately, because they aren't set by the firmware, but part of Steam Input, this tool can not help this issue.
 
 ### Can this damage my Steam Deck?
-Not likely. All this application does is reuse the existing libraries on the Steam deck to call the `trigger_set_cal` from the `controller_if` module. The triggers also don't cause a mouse click in Desktop mode unless they're pressed in pretty far, so even if you go a little bit too far, you can still click stuff just as easily in Desktop mode. If you go way too far (which won't happen if you slowly increase the values in steps of 20), you may have to use an external mouse/keyboard connected through a USB HUB (and maybe even open up the Deck to physically unplug the triggers temporarily) to fix things. To reset your calibration values back to factory settings, follow [this guide](https://www.ifixit.com/Guide/How+to+Calibrate+Steam+Deck+Triggers/150411).
+Not likely. All this application does is reuse the existing libraries on the Steam deck to call the `trigger_set_cal` function from the `controller_if` module. The triggers also don't cause a mouse click in Desktop mode unless they're pressed in pretty far, so even if you set the MAX values a little bit too high, you can still click stuff just fine in Desktop mode. If you go way too high on the MAX values (which won't happen if you slowly increase the values in steps of 20), you may have to use an external mouse/keyboard connected through a USB HUB (and maybe even open up the Deck to physically unplug the triggers temporarily) to fix things. To reset your calibration values back to factory settings, follow [this guide](https://www.ifixit.com/Guide/How+to+Calibrate+Steam+Deck+Triggers/150411).
 
 ### Can I use your code to make alterations, or compile from source?
 Yes. See [this page for instructions](https://github.com/kasvtv/steam_deck_overwrite_trigger_cal/blob/master/CONTRIBUTING.md)
