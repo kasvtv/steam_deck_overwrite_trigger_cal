@@ -57,7 +57,7 @@ If the triggers both read 0, try pressing the triggers, and see how quickly the 
 
 ![Screenshot 10](https://raw.githubusercontent.com/kasvtv/steam_deck_overwrite_trigger_cal/master/README_screenshots/10.jpg)
 
-Repeat this process as many times as needed until the dead zone is nice and small. In my case my MAX values were about 1800.
+Repeat this process as many times as needed until the dead zone is nice and small. In my case my MAX values were about 1800. It might take up to 10 increases of 20 to get the right value, but better be safe than sorry!
 
 Tip: to quickly start the utility again, open a Konsole, and press UP on the dpad to go back one command, and press the A button!
 
