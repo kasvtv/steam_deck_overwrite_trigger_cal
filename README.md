@@ -8,7 +8,7 @@ The Steam Deck's analog triggers have a very large deadzone in them. This deadzo
 
 This tool gives you complete control over the calibration values of the Steam Deck's triggers. If you read the instructions carefully, and follow the utility's instructions properly, you will likely be okay. But if you carelessly enter values, it could make the triggers inoperable. Take it slow, be careful, and double check your values before you apply them.
 
-In any case, usage is at your own risk, and I do not accept any liabilit if damage does occur.
+In any case, usage is at your own risk, and I do not accept any liability if damage does occur.
 
 ## Installation insructions
 On your Steam Deck, go into desktop mode, open a web browser, and navigate to [the releases page](https://github.com/kasvtv/steam_deck_overwrite_trigger_cal/releases). Here, download the `overwrite_trigger_cal` file from the latest release to the "Home" folder on your Steam Deck. Make sure it is the "Home" folder:
@@ -58,6 +58,8 @@ If the triggers both read 0, try pressing the triggers, and see how quickly the 
 ![Screenshot 10](https://raw.githubusercontent.com/kasvtv/steam_deck_overwrite_trigger_cal/master/README_screenshots/10.jpg)
 
 Repeat this process as many times as needed until the dead zone is nice and small. In my case my MAX values were about 1800.
+
+Tip: to quickly start the utility again, open a Konsole, and press UP on the dpad to go back one command, and press the A button!
 
 Enjoy more responsive triggers!
 
